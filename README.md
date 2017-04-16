@@ -19,8 +19,7 @@
   the esp8266 board and it waits for the signal from the webpage.
 
 
-![GitHub Logo](/pictures/fritzing.png?raw=true "Wiring Diagram")
-Format: ![Alt Text](url)
+![Alt text](/pictures/fritzing.png?raw=true "Wiring Diagram")
 
 The relay was then hooked up to the two terminals on the back of the garage door
 button. I used the normally open terminal on the relay.
