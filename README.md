@@ -17,7 +17,7 @@
 
 ## Wiring
 
-![Alt text](/MitchellStride/GarageDuino/blob/master/pictures/fritzing.png "Wiring Diagram")
+![Alt text](/pictures/fritzing.png "Wiring Diagram")
 
 ## Code
 ## Blynk
