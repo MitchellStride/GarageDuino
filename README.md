@@ -36,7 +36,7 @@ button. I used the normally open terminal on the relay.
   I came across this application called Blynk and tested it on this project.
   I shared the project with my housemates and now everyone can open the door.
 
-  ![Alt text](/pictures/blynkss?raw=true "Wiring Diagram")
+  ![Alt text](/pictures/blynkss.png?raw=true "Wiring Diagram")
 
   This is the code on the UNO waiting for the blynk signal
 
