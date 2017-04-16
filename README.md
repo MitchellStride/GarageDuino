@@ -20,8 +20,7 @@
 
 
 ![Alt text](/pictures/fritzing.png?raw=true "Wiring Diagram")
-
-<img alt="project1" src="{{ pictures/fritzing.png?raw=true}}"/>
+<img alt="project2" src="{{ "/pictures/fritzing.png" | prepend: site.baseurl }}" />
 
 The relay was then hooked up to the two terminals on the back of the garage door
 button. I used the normally open terminal on the relay.
