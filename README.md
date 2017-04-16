@@ -17,7 +17,7 @@
 
 ## Wiring
 
-![Alt text](/pictures/fritzing.png "Wiring Diagram")
+![Alt text](/pictures/fritzing.png?raw=true "Wiring Diagram")
 
 ## Code
 ## Blynk
