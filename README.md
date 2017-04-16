@@ -18,14 +18,12 @@
   I needed the Arduino because the relay operated on 5V logic. The Arduino Powers
   the esp8266 board and it waits for the signal from the webpage.
 
-
-![Alt text](/pictures/fritzing.png?raw=true "Wiring Diagram")
-<img alt="project2" src="{{ "/pictures/fritzing.png" | prepend: site.baseurl }}" />
+<img src="{{ "/pictures/fritzing.png" | prepend: site.baseurl }}" />
 
 The relay was then hooked up to the two terminals on the back of the garage door
 button. I used the normally open terminal on the relay.
 
-![Alt text](/pictures/garagebutton.jpg?raw=true "Wiring Diagram")
+<img src="{{ "/pictures/garagebutton.jpg?raw=true" | prepend: site.baseurl }}" />
 
 ## Code
 
@@ -36,7 +34,7 @@ button. I used the normally open terminal on the relay.
   I came across this application called Blynk and tested it on this project.
   I shared the project with my housemates and now everyone can open the door.
 
-  ![Alt text](/pictures/blynkss.png?raw=true "Wiring Diagram")
+<img alt="project2" src="{{ "/pictures/blynkss.png?raw=true" | prepend: site.baseurl }}" />
 
   This is the code on the UNO waiting for the blynk signal
 
