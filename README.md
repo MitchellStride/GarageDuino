@@ -25,7 +25,6 @@ The relay was then hooked up to the two terminals on the back of the garage door
 button. I used the normally open terminal on the relay.
 
 ![Alt text](/pictures/garagebutton.jpg?raw=true "Wiring Diagram")
-![Image](/pictures/garagebutton.jpg?raw=true "Wiring Diagram")
 
 ## Code
 
