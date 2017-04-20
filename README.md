@@ -22,7 +22,7 @@ The Arduino powers the esp8266 board and it waits for the signal from the webpag
 The relay was then hooked up to the two terminals on the back of the garage door
 button. I used the normally open terminal on the relay.
 
-<img src="{{ "/pictures/garagebutton.jpg?raw=true" | prepend: site.baseurl }}" />
+<img src="{{ "/pictures/garagebutton.jpeg?raw=true" | prepend: site.baseurl }}" />
 
 ## Code
 
