@@ -1,6 +1,6 @@
 
 ## Purpose
-  A garage door opener controlled by my phone.
+  An IOT garage door opener controlled by my phone.
 
 ## BOM
   - NodeMCU ESP8266 development board
