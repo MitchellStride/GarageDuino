@@ -15,8 +15,7 @@
   the relay, opening the garage door.
 
 ## Wiring
-  I needed the Arduino because the relay operated on 5V logic. The Arduino Powers
-  the esp8266 board and it waits for the signal from the webpage.
+The Arduino powers the esp8266 board and it waits for the signal from the webpage. I needed the Arduino because when booting the signals on the esp8266 dev board flickered so I used the Arduino as a safety and also the relay I own operated on 5V logic.
 
 <img src="{{ "/pictures/fritzing.png" | prepend: site.baseurl }}" />
 
@@ -31,8 +30,7 @@ button. I used the normally open terminal on the relay.
 
 ## Blynk
 
-  I came across this application called Blynk and tested it on this project.
-  I shared the project with my housemates and now everyone can open the door.
+I came across this application called Blynk and decided to test it on this project. The application was neat because setup was easy and it allowed me to easily share the application with my housemates so everyone can now open the garage door via their cell phones.
 
 <img alt="project2" src="{{ "/pictures/blynkss.png?raw=true" | prepend: site.baseurl }}" />
 
