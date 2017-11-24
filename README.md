@@ -1,4 +1,8 @@
 
+This project was done while I was away for work and had to be done with only the
+components I had on hand. The project could have been simplified if parts were ordered.
+The IOT relay PCB I created for the IOT Smart Home Project renders this obsolete.
+
 ## Purpose
   An IOT garage door opener controlled by my phone.
 
@@ -8,14 +12,14 @@
   - Arduino Uno R3 (Relay I had needed 5V logic)
 
 ## Plan
-  To host a web server on the esp8266 wifi chip so when I pull into the driveway
+  The plan is to host a web server on the esp8266 wifi chip so when I pull into the driveway
   in my car, my phone would automatically connect to the wifi and I could navigate
   to the boards IP and open the garage door. The web server will have a login and
   a push button which will trigger GPIO5 on the esp8266 board. This will trigger
   the relay, opening the garage door.
 
 ## Wiring
-The Arduino powers the esp8266 board and it waits for the signal from the webpage. I needed the Arduino because when booting the signals on the esp8266 dev board flickered so I used the Arduino as a safety and also the relay I own operated on 5V logic.
+The Arduino powers the esp8266 board and it waits for the signal from the webpage. I needed the Arduino because when booting the signals on the esp8266 dev board flickered so I used the Arduino as a safety and also the relay I own operated on 5V logic. A 3V mechanical relay could be used to simplify this. Or if the components were available a transistor to shift the logic level would also work.
 
 <img src="{{ "/pictures/fritzing.png" | prepend: site.baseurl }}" />
 
